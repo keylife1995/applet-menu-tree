@@ -1,0 +1,5 @@
+<!--pages/keylife-menu/keylife-menu.wxml-->
+<view class="keylife-menu">
+  <keylife-menu-cell catchtap="click" data-index="{{index}}" bindchosevideo="choseVideo" wx:for="{{menuData}}" menu="{{item}}" active="{{openIndex==index}}"></keylife-menu-cell>
+</view>
+

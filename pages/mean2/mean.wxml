@@ -1,0 +1,11 @@
+<!--pages/mean/mean.wxml-->
+<view class="mean">
+ <view class="mean-title">
+  <image wx-if="{{mean.isMean}}" class="mean-img" src="/images/mean/mean.png" mode="heightFix"></image>
+  <image wx-if="{{!mean.isMean}}" class="mean-img" src="/images/mean/video.png" mode="heightFix"></image>
+  <view class="title">{{mean.title}}</view>
+ </view>
+ <view class="childList" hidden="{{!active}}" v-if="{{mean.isMean}}">
+    <mean catchtap="click" data-index="{{index}}" v-if="{{mean.childList.length!=0}}" wx:for="{{mean.childList}}" mean="{{item}}" active="{{openIndex==index}}"></mean>
+  </view>
+</view>

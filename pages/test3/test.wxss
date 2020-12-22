@@ -1,0 +1,23 @@
+/* pages/mean/test.wxss */
+page{
+  padding: 0rem;
+  height: 100%;
+}
+.content{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.topTitle{
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 0.5rem;
+}
+.menu{
+  margin: auto 1rem;
+  flex: 1;
+}
+video{
+  width: 100%;
+}

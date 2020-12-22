@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "keylife-menu-cell": "/pages/keylife-menu1/keylife-menu-cell"
+  }
+}

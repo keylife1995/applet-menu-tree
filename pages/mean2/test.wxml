@@ -1,0 +1,3 @@
+<!--pages/mean/test.wxml-->
+<view style="text-align: center;">街舞从入门到放弃</view>
+<mean bindtap="click" data-index="{{index}}" wx:for="{{means}}" mean="{{item}}" active="{{openIndex==index}}"></mean>

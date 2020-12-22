@@ -1,0 +1,14 @@
+<!--pages/mean/test.wxml-->
+<view class="content">
+  <view class="topTitle">街舞从入门到放弃</view>
+  <view class="play">
+    <video id="myVideo" src="{{curVideo.url}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls picture-in-picture-mode="{{['push', 'pop']}}"></video>
+  </view>
+  <view class="menu">
+    <scroll-view scroll-y="true" style="height:{{scrollHeight}}px;">
+      <keylife-menu bindchosevideo="choseVideo" menuData="{{menus}}"></keylife-menu>
+      <view style="height:1rem"></view>
+    </scroll-view>
+  </view>
+</view>
+

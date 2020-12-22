@@ -1,0 +1,8 @@
+<!--pages/mean/test.wxml-->
+<view class="content">
+  <view class="topTitle">keylife-menu</view>
+  <view class="menu">
+    <keylife-menu bindchosevideo="choseVideo" menuData="{{menus}}"></keylife-menu>
+  </view>
+</view>
+

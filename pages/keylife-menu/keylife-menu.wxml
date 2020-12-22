@@ -1,0 +1,5 @@
+<!--pages/keylife-menu/keylife-menu.wxml-->
+<view class="keylife-menu">
+  <keylife-menu-cell bindchosevideo="choseVideo" wx:for="{{menuData}}" menu="{{item}}" slectTreeIds="{{slectTreeIds}}"></keylife-menu-cell>
+</view>
+

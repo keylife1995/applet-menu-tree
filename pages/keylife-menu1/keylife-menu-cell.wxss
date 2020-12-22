@@ -1,0 +1,18 @@
+/* pages/keylife-menu/keylife-menu-cell.wxss */
+.menu-cell-title{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 0.5rem auto;
+}
+.menu-cell-img{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.menu-cell-title .title{
+  margin-left: 1rem;
+}
+.childList{
+  padding-left: 2rem;
+  min-height: 1rem;
+}

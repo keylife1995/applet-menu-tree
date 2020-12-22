@@ -1,0 +1,19 @@
+/* pages/mean/mean.wxss */
+.mean-title{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 0.5rem auto;
+}
+.mean-img{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.mean-title .title{
+  margin-left: 1rem;
+  
+}
+.childList{
+  padding-left: 2rem;
+  min-height: 1rem;
+}

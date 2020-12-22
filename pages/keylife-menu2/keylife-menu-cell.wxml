@@ -1,0 +1,11 @@
+<!--pages/keylife-menu/keylife-menu-cell.wxml-->
+<view class="menu-cell">
+ <view class="menu-cell-title">
+  <image wx-if="{{menu.isMenu}}" class="menu-cell-img" src="images/menu.png" mode="heightFix"></image>
+  <image wx-if="{{!menu.isMenu}}" class="menu-cell-img" src="images/video.png" mode="heightFix"></image>
+  <view class="title">{{menu.title}}</view>
+ </view>
+ <view class="childList"  hidden="{{!active}}" v-if="{{menu.isMenu}}">
+    <keylife-menu-cell catchtap="click" data-index="{{index}}" bindchosevideo="choseVideo" v-if="{{menu.childList.length!=0}}" wx:for="{{menu.childList}}" menu="{{item}}" active="{{openIndex==index}}"></keylife-menu-cell>
+  </view>
+</view>
